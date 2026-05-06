@@ -26,6 +26,27 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <style>
+    .team-card .member-info .portfolio-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 8px;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--accent-color);
+      text-decoration: none;
+      transition: color 0.2s ease, transform 0.2s ease;
+    }
+    .team-card .member-info .portfolio-link:hover {
+      color: var(--heading-color);
+      transform: translateX(2px);
+    }
+    .team-card .member-info .portfolio-link i {
+      font-size: 14px;
+    }
+  </style>
+
   <!-- =======================================================
   * Template Name: Orbit
   * Template URL: https://bootstrapmade.com/orbit-bootstrap-template/
@@ -50,7 +71,6 @@
           <li><a href="#hero" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#team">Team</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -132,8 +152,8 @@
                   <i class="bi bi-briefcase"></i>
                 </div>
                 <div class="stat-info">
-                  <span class="stat-value">10+</span>
-                  <span class="stat-title">Team Experts</span>
+                  <span class="stat-value">20+</span>
+                  <span class="stat-title">Team Members</span>
                 </div>
               </div>
             </div>
@@ -380,198 +400,6 @@
 
     </section><!-- /Services Section -->
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row g-4" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="project-card">
-              <div class="image-wrapper">
-                <img src="assets/img/person/person-m-1.webp" alt="Marcus Wellington" class="img-fluid" loading="lazy">
-                <div class="hover-overlay">
-                  <div class="overlay-actions">
-                    <a href="#" class="action-btn" target="_blank" rel="noopener">
-                      <i class="bi bi-link-45deg"></i>
-                    </a>
-                  </div>
-                </div>
-                <span class="category-badge">Founder</span>
-              </div>
-              <div class="project-info">
-                <h3>Marcus Wellington</h3>
-                <p>Chief Executive Officer</p>
-                <div class="project-meta">
-                  <a href="#" class="service-link" target="_blank" rel="noopener">
-                    <span>View Portfolio</span>
-                    <i class="bi bi-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Portfolio Item -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="project-card">
-              <div class="image-wrapper">
-                <img src="assets/img/person/person-f-2.webp" alt="Elena Rodriguez" class="img-fluid" loading="lazy">
-                <div class="hover-overlay">
-                  <div class="overlay-actions">
-                    <a href="#" class="action-btn" target="_blank" rel="noopener">
-                      <i class="bi bi-link-45deg"></i>
-                    </a>
-                  </div>
-                </div>
-                <span class="category-badge">Strategy</span>
-              </div>
-              <div class="project-info">
-                <h3>Elena Rodriguez</h3>
-                <p>Creative Director</p>
-                <div class="project-meta">
-                  <a href="#" class="service-link" target="_blank" rel="noopener">
-                    <span>View Portfolio</span>
-                    <i class="bi bi-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Portfolio Item -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="project-card">
-              <div class="image-wrapper">
-                <img src="assets/img/person/person-m-5.webp" alt="David Chen" class="img-fluid" loading="lazy">
-                <div class="hover-overlay">
-                  <div class="overlay-actions">
-                    <a href="#" class="action-btn" target="_blank" rel="noopener">
-                      <i class="bi bi-link-45deg"></i>
-                    </a>
-                  </div>
-                </div>
-                <span class="category-badge">Tech Lead</span>
-              </div>
-              <div class="project-info">
-                <h3>David Chen</h3>
-                <p>Head of Engineering</p>
-                <div class="project-meta">
-                  <a href="#" class="service-link" target="_blank" rel="noopener">
-                    <span>View Portfolio</span>
-                    <i class="bi bi-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Portfolio Item -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="project-card">
-              <div class="image-wrapper">
-                <img src="assets/img/person/person-f-7.webp" alt="Sophia Martinez" class="img-fluid" loading="lazy">
-                <div class="hover-overlay">
-                  <div class="overlay-actions">
-                    <a href="#" class="action-btn" target="_blank" rel="noopener">
-                      <i class="bi bi-link-45deg"></i>
-                    </a>
-                  </div>
-                </div>
-                <span class="category-badge">Growth</span>
-              </div>
-              <div class="project-info">
-                <h3>Sophia Martinez</h3>
-                <p>Marketing Director</p>
-                <div class="project-meta">
-                  <a href="#" class="service-link" target="_blank" rel="noopener">
-                    <span>View Portfolio</span>
-                    <i class="bi bi-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Portfolio Item -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="project-card">
-              <div class="image-wrapper">
-                <img src="assets/img/person/person-m-9.webp" alt="James Mitchell" class="img-fluid" loading="lazy">
-                <div class="hover-overlay">
-                  <div class="overlay-actions">
-                    <a href="#" class="action-btn" target="_blank" rel="noopener">
-                      <i class="bi bi-link-45deg"></i>
-                    </a>
-                  </div>
-                </div>
-                <span class="category-badge">Design</span>
-              </div>
-              <div class="project-info">
-                <h3>James Mitchell</h3>
-                <p>Product Designer</p>
-                <div class="project-meta">
-                  <a href="#" class="service-link" target="_blank" rel="noopener">
-                    <span>View Portfolio</span>
-                    <i class="bi bi-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Portfolio Item -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="project-card">
-              <div class="image-wrapper">
-                <img src="assets/img/person/person-f-4.webp" alt="Olivia Chen" class="img-fluid" loading="lazy">
-                <div class="hover-overlay">
-                  <div class="overlay-actions">
-                    <a href="#" class="action-btn" target="_blank" rel="noopener">
-                      <i class="bi bi-link-45deg"></i>
-                    </a>
-                  </div>
-                </div>
-                <span class="category-badge">Operations</span>
-              </div>
-              <div class="project-info">
-                <h3>Olivia Chen</h3>
-                <p>Operations Manager</p>
-                <div class="project-meta">
-                  <a href="#" class="service-link" target="_blank" rel="noopener">
-                    <span>View Portfolio</span>
-                    <i class="bi bi-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Portfolio Item -->
-
-        </div><!-- End Portfolio Container -->
-
-        <div class="cta-section" data-aos="zoom-in" data-aos-delay="300">
-          <div class="cta-content">
-            <span class="cta-label"><i class="bi bi-lightning-charge-fill"></i> Ready to Start?</span>
-            <h3>Let's Create Something Amazing Together</h3>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.</p>
-            <div class="cta-buttons">
-              <a href="#contact" class="btn-cta-primary">Launch Your Project <i class="bi bi-arrow-right"></i></a>
-              <a href="#services" class="btn-cta-secondary"><i class="bi bi-play-circle"></i> Explore Services</a>
-            </div>
-          </div>
-          <div class="cta-decoration">
-            <div class="floating-shape shape-1"></div>
-            <div class="floating-shape shape-2"></div>
-            <div class="floating-shape shape-3"></div>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Portfolio Section -->
-
     <!-- Why Us Section -->
     <section id="why-us" class="why-us section light-background">
 
@@ -615,7 +443,7 @@
 
               <div class="action-buttons">
                 <a href="#contact" class="btn-main">Get Started Today</a>
-                <a href="#portfolio" class="btn-outline">Explore Portfolio</a>
+                <a href="#team" class="btn-outline">Meet the Team</a>
               </div>
             </div>
           </div>
@@ -745,7 +573,7 @@
             <div class="testimonials-sidebar">
               <div class="avatar-stack">
                 <img src="assets/img/person/person-m-3.webp" alt="Happy Client" class="avatar" loading="lazy">
-                <img src="assets/img/person/person-f-7.webp" alt="Happy Client" class="avatar" loading="lazy">
+                <img src="assets/img/person/person-f-7.jpeg" alt="Happy Client" class="avatar" loading="lazy">
                 <img src="assets/img/person/person-m-9.webp" alt="Happy Client" class="avatar" loading="lazy">
                 <img src="assets/img/person/person-f-4.webp" alt="Happy Client" class="avatar" loading="lazy">
                 <span class="avatar-count">+2.5k</span>
@@ -925,7 +753,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Team</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>The senior engineers and designers behind every product we ship — small by design, deep by experience.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -941,14 +769,15 @@
                   <div class="social-links">
                     <a href="#"><i class="bi bi-twitter-x"></i></a>
                     <a href="#"><i class="bi bi-linkedin"></i></a>
-                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="https://suleman-c63zznm9c-suleman-5426s-projects.vercel.app/" target="_blank" rel="noopener" aria-label="Portfolio"><i class="bi bi-globe"></i></a>
                   </div>
                 </div>
               </div>
               <div class="member-info">
-                <span class="member-badge">Founder</span>
-                <h4>Marcus Wellington</h4>
-                <p>Chief Executive Officer</p>
+                <span class="member-badge">Leadership</span>
+                <h4>Suleman Syed</h4>
+                <p>CEO</p>
+                <a href="https://suleman-c63zznm9c-suleman-5426s-projects.vercel.app/" target="_blank" rel="noopener" class="portfolio-link"><i class="bi bi-arrow-up-right"></i> View Portfolio</a>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -967,30 +796,31 @@
                 </div>
               </div>
               <div class="member-info">
-                <span class="member-badge">Strategy</span>
-                <h4>Elena Rodriguez</h4>
-                <p>Creative Director</p>
+                <span class="member-badge">Backend</span>
+                <h4>Usman Aslam</h4>
+                <p>CTO</p>
               </div>
             </div>
           </div><!-- End Team Member -->
 
           <!-- Team Member 3 - Featured -->
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="team-card featured">
+            <div class="team-card">
               <div class="member-img">
                 <img src="assets/img/person/person-m-5.webp" class="img-fluid" alt="Team Member">
                 <div class="social-overlay">
                   <div class="social-links">
                     <a href="#"><i class="bi bi-twitter-x"></i></a>
                     <a href="#"><i class="bi bi-github"></i></a>
-                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://hamzadaniyal7.github.io/" target="_blank" rel="noopener" aria-label="Portfolio"><i class="bi bi-globe"></i></a>
                   </div>
                 </div>
               </div>
               <div class="member-info">
-                <span class="member-badge">Tech Lead</span>
-                <h4>David Chen</h4>
-                <p>Head of Engineering</p>
+                <span class="member-badge">Frontend</span>
+                <h4>Hamza Daniyal</h4>
+                <p>VP Engineering</p>
+                <a href="https://hamzadaniyal7.github.io/" target="_blank" rel="noopener" class="portfolio-link"><i class="bi bi-arrow-up-right"></i> View Portfolio</a>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -999,47 +829,24 @@
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="team-card">
               <div class="member-img">
-                <img src="assets/img/person/person-f-7.webp" class="img-fluid" alt="Team Member">
+                <img src="assets/img/person/person-f-7.jpeg" class="img-fluid" alt="Team Member">
                 <div class="social-overlay">
                   <div class="social-links">
                     <a href="#"><i class="bi bi-twitter-x"></i></a>
                     <a href="#"><i class="bi bi-linkedin"></i></a>
-                    <a href="#"><i class="bi bi-behance"></i></a>
+                    <a href="https://portfolio-rj3961ql6-zeeshans-projects-26d36f39.vercel.app/" target="_blank" rel="noopener" aria-label="Portfolio"><i class="bi bi-globe"></i></a>
                   </div>
                 </div>
               </div>
               <div class="member-info">
-                <span class="member-badge">Growth</span>
-                <h4>Sophia Martinez</h4>
-                <p>Marketing Director</p>
+                <span class="member-badge">UI/UX</span>
+                <h4>Zeeshan Ahmad</h4>
+                <p>Head of Design</p>
+                <a href="https://portfolio-rj3961ql6-zeeshans-projects-26d36f39.vercel.app/" target="_blank" rel="noopener" class="portfolio-link"><i class="bi bi-arrow-up-right"></i> View Portfolio</a>
               </div>
             </div>
           </div><!-- End Team Member -->
 
-        </div>
-
-        <!-- Stats Row -->
-        <div class="team-stats" data-aos="fade-up" data-aos-delay="500">
-          <div class="row justify-content-center">
-            <div class="col-lg-8">
-              <div class="stats-wrapper">
-                <div class="stat-item">
-                  <span class="stat-number">50+</span>
-                  <span class="stat-label">Team Members</span>
-                </div>
-                <div class="stat-divider"></div>
-                <div class="stat-item">
-                  <span class="stat-number">12</span>
-                  <span class="stat-label">Countries</span>
-                </div>
-                <div class="stat-divider"></div>
-                <div class="stat-item">
-                  <span class="stat-number">8+</span>
-                  <span class="stat-label">Years Experience</span>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
 
       </div>
@@ -1077,7 +884,7 @@
                   </div>
                   <div class="method-details">
                     <span class="method-label">Email Us</span>
-                    <a href="mailto:support@example.com">support@example.com</a>
+                    <a href="mailto:info@thesynexis.com">info@thesynexis.com</a>
                   </div>
                 </div>
 
@@ -1141,7 +948,11 @@
                 </div>
               </div>
 
-              <form action="forms/contact.php" method="post" class="php-email-form">
+              <form action="https://api.web3forms.com/submit" method="POST" id="contactForm" class="php-email-form">
+                <input type="hidden" name="access_key" value="4eaa5793-f014-4508-a45e-8a74b8b8e199">
+                <input type="hidden" name="from_name" value="The Synexis Website">
+                <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+
                 <div class="row g-4">
                   <div class="col-md-6">
                     <div class="input-group-custom">
@@ -1200,6 +1011,46 @@
                   </div>
                 </div>
               </form>
+              <script>
+                (function () {
+                  const form = document.getElementById('contactForm');
+                  if (!form) return;
+                  const loading = form.querySelector('.loading');
+                  const errorMsg = form.querySelector('.error-message');
+                  const sentMsg = form.querySelector('.sent-message');
+                  const submitBtn = form.querySelector('button[type="submit"]');
+                  form.addEventListener('submit', async function (e) {
+                    e.preventDefault();
+                    e.stopImmediatePropagation();
+                    loading.style.display = 'block';
+                    errorMsg.style.display = 'none';
+                    sentMsg.style.display = 'none';
+                    submitBtn.disabled = true;
+                    try {
+                      const res = await fetch(form.action, {
+                        method: 'POST',
+                        body: new FormData(form),
+                        headers: { 'Accept': 'application/json' }
+                      });
+                      const data = await res.json();
+                      loading.style.display = 'none';
+                      if (res.ok && data.success) {
+                        sentMsg.style.display = 'block';
+                        form.reset();
+                      } else {
+                        errorMsg.textContent = data.message || 'Something went wrong. Please try again.';
+                        errorMsg.style.display = 'block';
+                      }
+                    } catch (err) {
+                      loading.style.display = 'none';
+                      errorMsg.textContent = 'Network error. Please try again.';
+                      errorMsg.style.display = 'block';
+                    } finally {
+                      submitBtn.disabled = false;
+                    }
+                  });
+                })();
+              </script>
             </div>
           </div><!-- End Form Card -->
 
