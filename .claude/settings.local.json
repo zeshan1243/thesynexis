@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /c/Users/Intag/Documents/thesynexis && npm i)",
+      "Bash(cd \"C:/Users/Intag/Documents/thesynexis\" && npx serve -l 3000 .)"
+    ]
+  }
+}
